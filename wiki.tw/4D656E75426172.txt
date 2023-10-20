@@ -1,0 +1,20 @@
+#lookup(站內搜尋,搜尋)
+#lookup(Google,搜尋)
+***快速連結
+-[[網誌]]
+-[[求助]]
+-[[行事曆]]
+-[[測試區]]
+-[[留言版]]
+-[[寫作語法]]
+-[[檢查版本資訊]]
+-[[InterWikiName]]
+
+#recent(10)
+#popular(10)
+#popular(10,,true)
+***訪客人數 [#ve1ca55b]
+|目前線上|CENTER:&online;|
+|今日來訪|CENTER:&counter(today);|
+|昨日到訪|CENTER:&counter(yesterday);|
+|開站以來|CENTER:&counter(all);|

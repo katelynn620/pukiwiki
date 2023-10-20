@@ -1,0 +1,18 @@
+*[[本站網誌>網誌]]&nbsp;&rsslink(網誌,1,1);&nbsp;&rsslink(網誌,,1); [#b3c5b79a]
+**發表文章 [#md87bbb2]
+>
+#weblog
+**單篇彙整 (&ls_count(網誌,total);) [#d1a3cb9e]
+>
+&ls_count(網誌,weblog,1);
+**分類彙整 [#p20994a1]
+>
+&ls_count(:類別,category,1);
+**按月彙整 [#c73e522c]
+>
+&ls_count(網誌,month,1);
+**按日彙整 [#iec5e1d9]
+|#calendar2(網誌,off)|&ls_count(網誌,day,1);|
+**最新迴響 [#v95b8193]
+>
+#recentp(10,迴響/網誌,1)

@@ -1,0 +1,4 @@
+*檢查CVS版本資訊 [#va142e50]
+#cvscheck(tw,1d)
+*自製或自行安裝的檔案及 Plugin 的版本資訊 [#n78f956d]
+#cvscheck(tw,local,1d)

@@ -1,0 +1,7 @@
+<?php
+ $auth_method_type = "pagename";
+ $read_auth = 0;
+ $edit_auth = 0;
+ $source_auth = 0;
+ $search_auth = 0;
+?>

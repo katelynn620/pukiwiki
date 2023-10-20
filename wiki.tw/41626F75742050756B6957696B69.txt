@@ -1,0 +1,95 @@
+#norelated
+
+*關於 PukiWiki 的資訊 [#v1d1369e]
+您可以在本頁取得關於 PukiWiki 的中文相關資訊。所有的文件翻譯可能是由不相干的人一起翻譯的。所以，若您發現到有任何錯誤或是不自然的表達方式，不用客氣 ，請直接幫忙更正。您知道的，這是 Wiki 系統的主要優點之一。
+
+#contents
+
+**簡介 [#t8bf4e34]
+PukiWiki 是一個以網頁為基礎的工具，可以讓網頁瀏覽者自由的新增和刪除頁面，並且能夠編輯頁面的內容。
+它可以像網頁佈告欄一樣讓瀏覽者可以自由的發佈公告。但 PukiWiki 還允許您可以自由的去變更某個已存在頁面的內容，對照於佈告欄，則僅能新增訊息而已。
+~它最初是由 sng 先生所開發，而目前則是由 "PukiWiki 開發團隊" 所開發。 PukiWiki 是移植自 Hiroshi Youki 先生所開發的 PHP 版本的 WikiWikiWeb 型態佈告欄 -- YukiWiki。目前已從 YukiWiki 獨立出來，並命名為 PukiWiki，且功能正一個一個逐漸增加中。
+~它就像是
+ PukiWiki = (YukiWiki + Tiki + RWiki) / 3 
+
+~您可以使用 "插件(Plugin)" 自由的擴張功能。
+~另外，還有很多並沒有包含在標準插件內的插件，都有被列表出來。您可以 "盡情的去嚐試它！"
+
+-使用 PHP 語言撰寫。
+-支援 2 位元組的字元，包含漢字(中文字)。
+-支援 InterWiki 功能。
+-支援定期備份的功能。
+-所有的資料都以純文字檔的格式儲存。(二進位的檔案，可以附加在任何頁面中。)
+-以 GPL 版權的方式發行。
+
+[[PukiWiki.dev:http://pukiwiki.sourceforge.jp/dev/]] 帶領您到開發團隊的 Wiki。
+
+**狀態及下載 [#n6ccf806]
+:狀態|
+目前正在改良下個版本 1.4 的最終候選版本。&br;
+請參閱[[開發日記>http://pukiwiki.org/?%5B%5Bdev%3A%E9%96%8B%E7%99%BA%E6%97%A5%E8%A8%98%5D%5D]]。
+
+:最新版本| 
+穩定版本 - 1.3.5 &br;
+開發版本 - 1.4rc4(2003/09/24) &br;
+
+***穩定版本 [#vb5dfb62]
+-PukiWiki 1.3.5
+|~檔案|~MD5|
+|[[pukiwiki1.3.5.zip:http://pukiwiki.sourceforge.jp/download/pukiwiki1.3.5.zip]]|ad8217a2820a0a31bba52353e1f1359b|
+|[[pukiwiki1.3.5.tar.gz:http://pukiwiki.sourceforge.jp/download/pukiwiki1.3.5.tar.gz]]|5b93661f4d6a49321a8971e28ad50cad|
+
+***開發版本 [#na10fd63]
+-[[PukiWiki 1.4 dev>http://pukiwiki.org/?%5B%5Bcvs%3Apukiwiki.tar.gz%3Ftarball%3D1%26only_with_tag%3DMAIN%5D%5D]]
+-[[PukiWiki 1.3.5 dev>http://en.pukiwiki.org/?%5B%5Bcvs%3Apukiwiki.tar.gz%3Ftarball%3D1%26only_with_tag%3Dr1_3_5%5D%5D]]
+***中文化版本 [#a4ac09b1]
+-[[PukiWiki 1.4 中文化版>http://pukiwiki.kandix.idv.tw/TMP/pukiwiki.tgz]]
+**需求 [#q7fd1532]
+~PukiWiki 是使用 PHP 所撰寫，因此，需要 PHP 的環境。&br;
+建議使用 PHP 4.1 或以上的版本。
+~若要使用 multibyte 的功能，則需要 PHP 的 multibyte extension。
+**安裝 [#kb6329b3]
+-從本站取得安裝套件。
+-將套件解開。 
+-編輯 pukiwiki.ini.php 以符合您自己的環境需求。
+-變更下列目錄、檔案的權限。
+-若使用中文化版本，請參考裡面的 README.tw 檔案。
+|LEFT:|CENTER:|CENTER:|c
+|~目錄|~　權　限　|~更高安全性|h
+|~attach|777|707|
+|~backup|777|707|
+|~cache|777|707|
+|~diff|777|707|
+|~face|755|705|
+|~image|755|705|
+|~plugin|755|705|
+|~skin|755|705|
+|~trackback|777|707|
+|~wiki|777|707|
+|>|>|~檔案|
+|~attach/*|666|606|
+|~backup/*|666|606|
+|~cache/*|666|606|
+|~diff/*|666|606|
+|~face/*|644|604|
+|~image/*|644|604|
+|~plugin/*|644|604|
+|~skin/*|644|604|
+|~trackback/*|666|606|
+|~wiki/*|666|606|
+|~*.php|644|604|
+|~*.lng|644|604|
+|~*.txt|644|604|
+
+**中文化的文件(或中文化中的文件) [#a04d217f]
+-[[什麼是 PukiWiki？>What's PukiWiki?]] (一般的常見問題)
+-寫作語法
+-插件資訊
+-常見問答集
+-[[FAQinEnglish]]
+-Tips
+-DRAFT: [[readme.txt>./readme_draft]]
+
+**迴響 [#n27cef0c]
+
+#comment

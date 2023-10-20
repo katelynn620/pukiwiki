@@ -1,0 +1,5 @@
+*關於 PukiWiki [#n4546b41]
+-中文版：[[關於 PukiWiki>About PukiWiki]]
+-日文版：[[PukiWikiについて>PukiWiki.org:PukiWiki]]
+-英文版：[[About PukiWiki>PukiWiki.en:About PukiWiki]]
+-[[PukiWiki的國際化>PukiWiki/國際化]]

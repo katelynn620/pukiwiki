@@ -1,0 +1,6 @@
+<?php
+ $source_auth_pages = array(
+ '!:Auth/!' => 'test',
+ '/(FrontPage|Candyz|MenuBar|網誌|:Auth)/' => 'candyz',
+ );
+?>
