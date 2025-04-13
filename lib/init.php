@@ -87,6 +87,7 @@ case 'ja': define('MB_LANGUAGE', 'Japanese'); break;
 case 'ko': define('MB_LANGUAGE', 'Korean'  ); break; //UTF-8 only
 	// See BugTrack2/13 for all hack about Korean support, //UTF-8 only
 	// and give us your report!                            //UTF-8 only
+case 'tw': define('MB_LANGUAGE', 'Traditional Chinese'); break;
 default: die_message('No such language "' . LANG . '"'); break;
 }
 
